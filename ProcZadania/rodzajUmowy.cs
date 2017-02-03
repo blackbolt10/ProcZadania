@@ -41,7 +41,6 @@ namespace ProcZadania
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             wynik[0] = pomDT.Rows[listaUmowListBox.SelectedIndex][0].ToString();
             wynik[1] = pomDT.Rows[listaUmowListBox.SelectedIndex][1].ToString();
             wynik[2] = pomDT.Rows[listaUmowListBox.SelectedIndex][2].ToString();
